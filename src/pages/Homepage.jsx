@@ -1,19 +1,24 @@
+import { Link } from "react-router-dom";
 import styles from "./Homepage.module.css";
+import PageNav from "../components/PageNav";
 
 export default function Homepage() {
   return (
     <main className={styles.homepage}>
+      <PageNav />
       <section>
         <h1>
-          You travel the world.
+          你留下足跡的地方，就是旅程的開始。
           <br />
-          WorldWise keeps track of your adventures.
+          WorldWise 幫你把回憶都裝進地圖裡。
         </h1>
         <h2>
-          A world map that tracks your footsteps into every city you can think
-          of. Never forget your wonderful experiences, and show your friends how
-          you have wandered the world.
+          世界地圖記錄你的足跡，無論你走到哪。
+          珍藏每段旅程，也把這份感動帶給你的朋友。
         </h2>
+        <Link to="/app" className="cta">
+          冒險啟程
+        </Link>
       </section>
     </main>
   );
