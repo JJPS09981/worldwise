@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import styles from "./Homepage.module.css";
 import PageNav from "../components/PageNav";
+import { useAuth } from "../contexts/FakeAuthContext";
 
 export default function Homepage() {
+  const { isAuthenticated } = useAuth();
+
   return (
     <main className={styles.homepage}>
       <PageNav />
@@ -16,7 +19,7 @@ export default function Homepage() {
           世界地圖記錄你的足跡，無論你走到哪。
           珍藏每段旅程，也把這份感動帶給你的朋友。
         </h2>
-        <Link to="/app" className="cta">
+        <Link to={isAuthenticated ? "/app" : "/login"} className="cta">
           冒險啟程
         </Link>
       </section>

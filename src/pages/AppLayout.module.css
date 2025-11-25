@@ -2,6 +2,9 @@
   height: 100vh;
   padding: 2.4rem;
   overscroll-behavior-y: none;
-  display: flex;
+
+  display: grid;
+  grid-template-columns: 48rem 1fr; /* 左 48rem，右邊吃剩下 */
+  column-gap: 0; /* 想要的話也可以加 gap */
   position: relative;
 }
