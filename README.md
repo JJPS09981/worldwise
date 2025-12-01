@@ -4,7 +4,7 @@
   讓使用者能將去過的城市與國家 標記在互動地圖上，並留下自己的旅遊筆記。
 
 - 此專案源自 Jonas Schmedtmann《Ultimate React Course》，
-  依照課程架構完成，但保留可客製化空間（例如你之後想串自己的後端）。
+  依照課程架構完成，但保留可客製化空間。
 
 🔗 Live Demo
 https://worldwise-sheng.netlify.app/
