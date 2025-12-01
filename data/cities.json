@@ -33,6 +33,18 @@
         "lng": "120.79467773437501"
       },
       "id": 98443199
+    },
+    {
+      "cityName": "Taichung",
+      "country": "Taiwan (Province of China)",
+      "emoji": "TW",
+      "date": "2025-12-01T03:37:29.601Z",
+      "notes": "12",
+      "position": {
+        "lat": "24.171813716251364",
+        "lng": "120.63537597656251"
+      },
+      "id": 98443202
     }
   ]
 }
