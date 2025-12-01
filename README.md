@@ -6,8 +6,7 @@
 - 此專案源自 Jonas Schmedtmann《Ultimate React Course》，
   依照課程架構完成，但保留可客製化空間（例如你之後想串自己的後端）。
 
-## 🔗 Live Demo
-
+🔗 Live Demo
 https://worldwise-sheng.netlify.app/
 
 ## ⭐ 功能 Features
@@ -53,3 +52,47 @@ https://worldwise-sheng.netlify.app/
 - 未登入不能查看主介面
 
 - 支援 Protected Routes
+
+## ⚡ 技術亮點
+
+- React Component-based 設計
+
+- Context API 全域狀態管理
+
+- React Router v6（Nested Routes / Navigate / Loader）
+
+- Leaflet 地圖整合（Marker、Popup、定位）
+
+- Custom Hooks
+
+- JSON Server Fake API（可替換成真正後端）
+
+- 完整的 SPA 體驗
+
+## 🛠️ Tech Stack
+
+Frontend
+
+- React 18
+
+- React Router v6
+
+- Context API
+
+- React-Leaflet
+
+- JavaScript (ES6+)
+
+- Vite
+
+Backend
+
+- JSON Server（Local Fake API 開發用）
+
+- Render.com（部署 Fake API / Mock API）
+
+UI / Design
+
+- RWD
+
+- Leaflet Map
