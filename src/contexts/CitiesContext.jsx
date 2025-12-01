@@ -44,7 +44,7 @@ function reducer(state, action) {
   }
 }
 
-const BASE_URL = "http://localhost:5100";
+const BASE_URL = "https://worldwise-api-97my.onrender.com";
 
 function CitiesProvider({ children }) {
   const [{ cities, isLoading, currentCity, error }, dispatch] = useReducer(
